@@ -12,4 +12,12 @@
     <name>Herobrine Spigot Plugin</name>
 
     <description>A spigot plugin for Herobrine remake</description>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Herobrine Packages</name>
+            <url>https://maven.pkg.github.com/YOUR_USERNAME/YOUR_REPOSITORY</url>
+        </repository>
+    </distributionManagement>
+         
 </project>
