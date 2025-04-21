@@ -16,7 +16,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Herobrine Packages</name>
-            <url>https://maven.pkg.github.com/YOUR_USERNAME/YOUR_REPOSITORY</url>
+            <url>https://maven.pkg.github.com/Herobrine-gg/Herobrine-Spigot</url>
         </repository>
     </distributionManagement>
          
