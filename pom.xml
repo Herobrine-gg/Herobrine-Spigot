@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -6,18 +5,26 @@
 
     <groupId>gg.herobrine</groupId>
     <artifactId>herobrine-spigot</artifactId>
-    <version>1.0.0</version>
+    <version>${revision}</version>
     <packaging>jar</packaging>
 
     <name>Herobrine Spigot Plugin</name>
-
     <description>A spigot plugin for Herobrine remake</description>
+
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Herobrine Packages</name>
             <url>https://maven.pkg.github.com/Herobrine-gg/Herobrine-Spigot</url>
         </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <name>GitHub Herobrine Packages</name>
+            <url>https://maven.pkg.github.com/Herobrine-gg/Herobrine-Spigot</url>
+        </snapshotRepository>
     </distributionManagement>
-         
 </project>
